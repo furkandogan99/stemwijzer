@@ -124,12 +124,19 @@ var parties = [
 
     document.getElementById("title").innerHTML = subjects[0].title;
     document.getElementById("statement").innerHTML = subjects[0].statement;
-    document.getElementById("parties").innerHTML = subjects[0].parties[0];
+    document.getElementById("parties").innerHTML = subjects[0].parties[0].name + ' ' + subjects[0].parties[0].position + ' ' + subjects[0].parties[0].explanation ;
+    
 
+    // for (j = 0; j < subjects[0].parties.length; j++){
+    // 		console.log(subjects[0].parties[j].name, subjects[0].parties[j].position, subjects[0].parties[j].explanation);
+    // }
 
+    for (k = 0; k < subjects[0].parties.name; k++){
+    	console.log(subjects[0].parties[k].name)
 
+    }
 
-for (i = 0; i < subjects.length; i++){
-	console.log(subjects[i]);
-}
+// for (i = 0; i < subjects.length; i++){
+// 	console.log(subjects[i]);
+// }
 
