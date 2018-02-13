@@ -5,7 +5,11 @@ body{
 }
 .content {
     max-width: 500px;
-    margin: auto;
+    margin: 0px auto;
     text-align: center;
 }
 
+.margin {
+	margin-top: 50px;
+
+}
